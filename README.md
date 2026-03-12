@@ -6,4 +6,4 @@ Tarkoituksena on tuottaa web-sovellus, johon käyttäjä voi rekisteröityä ja 
 * Käyttäjä voi hakea eri treenien lokeja hakusanoilla.
 * Treenejä voi hakea eri luokitteluilla (esim. cardio, painonnnosto).
 * Käyttäjä voi jättää kommentteja omiin ja muiden käyttäjien lokeihin.
-* Käyttäjäillä on myös omat käyttäjäkohtaiset sivut, joissa näkyy kooste omista kirjatuista lokeista.
+* Käyttäjillä on myös omat käyttäjäkohtaiset sivut, joissa näkyy kooste omista kirjatuista lokeista.
