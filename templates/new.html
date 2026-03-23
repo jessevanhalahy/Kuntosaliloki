@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Exercise - Gym Log</title>
+</head>
+<body>
+    <h2>Add New Exercise</h2>
+    <form method="POST">
+        Name of exercise:<br>
+        <input type="text" name="name" required><br><br>
+        Description:<br>
+        <textarea name="description" rows="4" cols="50"></textarea><br><br>
+        Category:<br>
+        <select name="category_id">
+            {% for c in categories %}
+                <option value="{{ c.id }}">{{ c.name }}</option>
+            {% endfor %}
+        </select><br><br>
+        
+        <input type="submit" value="Save Exercise">
+    </form>
+    <br>
+    <a href="/">Back to home</a>
+</body>
+</html>
